@@ -1,0 +1,15 @@
+@use "type";
+
+$container-height: calc(100vh - 60px);
+$container-minWidth: 1440px;
+
+@mixin mainContainer {
+  color: #54687d;
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  width: 100%;
+  min-height: $container-height;
+  min-width: $container-minWidth;
+  font-size: type.$default-font-size;
+}
